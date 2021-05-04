@@ -9,3 +9,5 @@ https://www.climatechangeinaustralia.gov.au/en/learning-support/faqs/eight-clima
 Currently it appears that on NCI the CMIP5 datasets for this important set of application-ready data are spread across many projects.  Further version information can be confusing to even the intermediate NCI user.
 
 Can we shed some light on how best to pull together the complete CCiA CMIP5 collection, to choose key experiments, controls, and historical runs, and to more easily open these datasets into an `xarray` style workflow?
+
+Our task is to build `xarray` datasets for both `pr` and `psl` for both `historical` and `rcp85` for all 8 models.
